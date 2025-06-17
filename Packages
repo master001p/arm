@@ -1,12 +1,12 @@
 Package: libPaymentIn
-Version: 0.3.8
+Version: 0.5.2
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/libPaymentIn_0.3.8_iphoneos-arm64e.deb
-Size: 366698
-MD5sum: 433b2bd261f4df51a51fd4031acba6a6
-SHA1: 774951cc7b55f53ff7596ab148827cb178317833
-SHA256: 858ba66d51d6e13ab1966a4164497f4467d1c31aab012fe3725840766356650b
+Filename: ./debs/libPaymentIn_0.5.2_iphoneos-arm64e.deb
+Size: 433760
+MD5sum: 2b87432fa221a3cf7e1c44b1058f0e57
+SHA1: dd6fca271ad73aeaa54986cf8a3740226b696e09
+SHA256: bc715aeca5338f0cb40d83569a6b229f7659e4d30a47ae069a06039f459df719
 Section: Tweaks
 Priority: optional
 Description: 入库
