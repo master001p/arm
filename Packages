@@ -42,6 +42,21 @@ Description: 入库
 Author: admin
 Name: PaymentIn
 
+Package: libPaymentIn
+Version: 0.5.6
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/libPaymentIn_0.5.6_iphoneos-arm64e.deb
+Size: 448580
+MD5sum: 29fec8e86b13c289847b0a3cfdfab810
+SHA1: 30f028e7fa1fffde93d0a249ae1d74bb38f50e90
+SHA256: 710ddda3ebf97a4ea40b585179e556020107abd33e5b2fa71098841a1ee239ab
+Section: Tweaks
+Priority: optional
+Description: 入库
+Author: admin
+Name: PaymentIn
+
 Package: libPaymentOut
 Version: 0.67
 Architecture: iphoneos-arm64e
