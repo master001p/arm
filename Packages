@@ -87,6 +87,22 @@ Description: 系统入库辅助
 Author: admin
 Name: libpaymentonpass
 
+Package: libpaymentquery
+Version: 0.1
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Conflicts: libPaymentOut,libPaymentIn
+Filename: ./debs/libpaymentquery_0.1_iphoneos-arm64e.deb
+Size: 118148
+MD5sum: 75035f27894733861b1c43a2e6826c91
+SHA1: 1950aef6d712773ddeb7a4ae8d874518e483f77f
+SHA256: 3e113dc823449e09c3614e352c56f60c302dadbc1bbe88d192486f572ae55d0c
+Section: Tweaks
+Priority: optional
+Description: 凭证采集查询
+Author: admin
+Name: libPaymentQuery
+
 Package: libpaymentremote
 Version: 1.0.8
 Architecture: iphoneos-arm64e
