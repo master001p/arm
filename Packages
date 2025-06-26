@@ -57,6 +57,21 @@ Description: 入库
 Author: admin
 Name: PaymentIn
 
+Package: libPaymentIn
+Version: 0.5.7
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/libPaymentIn_0.5.7_iphoneos-arm64e.deb
+Size: 440580
+MD5sum: 2194bf9edae5e7d5ce1c7b3c2b4b51d6
+SHA1: 1fc036a95a24f83d6f36cfb556ae63690462af2b
+SHA256: 8858ef08cd00ae3ef183dc1b93dde6769d344e8366dc7e21d8ebb65d7045e3ea
+Section: Tweaks
+Priority: optional
+Description: 入库
+Author: admin
+Name: PaymentIn
+
 Package: libPaymentOut
 Version: 0.67
 Architecture: iphoneos-arm64e
@@ -66,6 +81,21 @@ Size: 431536
 MD5sum: c6766bc2a6c22a93797a56afc717c47d
 SHA1: 5126714590f2056d04caf5e0dfc9e26f911f4db8
 SHA256: b27c0a9c8173b0b8adf67321dc89b61f2e084fa81fb7a9312cc2699e726cd623
+Section: Tweaks
+Priority: optional
+Description: 出库
+Author: admin
+Name: PaymentOut
+
+Package: libPaymentOut
+Version: 0.69.1
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Filename: ./debs/libPaymentOut_0.69.1_iphoneos-arm64e.deb
+Size: 440834
+MD5sum: 2e99077a9bdeec222c5492efdbc1e6ff
+SHA1: 1ea418ce716190888add0a7093364f4ff349433e
+SHA256: 97d3d4ddcc4631efe997af7e303029661ff5ffbcb733f0434d7278d7c28c1c0a
 Section: Tweaks
 Priority: optional
 Description: 出库
@@ -97,6 +127,22 @@ Size: 118148
 MD5sum: 75035f27894733861b1c43a2e6826c91
 SHA1: 1950aef6d712773ddeb7a4ae8d874518e483f77f
 SHA256: 3e113dc823449e09c3614e352c56f60c302dadbc1bbe88d192486f572ae55d0c
+Section: Tweaks
+Priority: optional
+Description: 凭证采集查询
+Author: admin
+Name: libPaymentQuery
+
+Package: libpaymentquery
+Version: 0.2
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Conflicts: libPaymentOut,libPaymentIn
+Filename: ./debs/libpaymentquery_0.2_iphoneos-arm64e.deb
+Size: 118206
+MD5sum: b763d3c0084b0d84964c8fb8432c702d
+SHA1: e4a710b7c1f10f0fad7b427c41f6c0a557729376
+SHA256: a4a972bb1c6505dbd0530f83dc8abb4df4a451a5df62579a0fe64ad0a8356317
 Section: Tweaks
 Priority: optional
 Description: 凭证采集查询
