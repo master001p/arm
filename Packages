@@ -43,51 +43,6 @@ Author: admin
 Name: PaymentIn
 
 Package: libPaymentOut
-Version: 0.70
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/libPaymentOut_0.70_iphoneos-arm64e.deb
-Size: 449978
-MD5sum: e2425e6760bea89bcf2f43787ea65417
-SHA1: 6743296405bfcecfd4f1340d06a600fb8c7ca195
-SHA256: 55515a488718a552ef2d64ce6d78416a3ddc3c677603bc77ef9b86195330836d
-Section: Tweaks
-Priority: optional
-Description: 出库
-Author: admin
-Name: PaymentOut
-
-Package: libPaymentOut
-Version: 0.71
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/libPaymentOut_0.71_iphoneos-arm64e.deb
-Size: 450018
-MD5sum: 7f97148d9618add440c087a0c807d058
-SHA1: c08cfb810b4c8df2b50269f8cde9c0ada2cf9243
-SHA256: 7d5c6e3902faa4f6c39402b1f93ed752b8393f219dddd55c19b764b54ba935d6
-Section: Tweaks
-Priority: optional
-Description: 出库
-Author: admin
-Name: PaymentOut
-
-Package: libPaymentOut
-Version: 0.72
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/libPaymentOut_0.72_iphoneos-arm64e.deb
-Size: 450026
-MD5sum: 3fe1c8576a89f1445da0cf46c4d6e655
-SHA1: eccce7b6596d1fdcdb4ac1000d201a5a815e4038
-SHA256: 8d5112fd7156b7e185097c03558e6916ca454b1dab774e7a963f58b63480b560
-Section: Tweaks
-Priority: optional
-Description: 出库
-Author: admin
-Name: PaymentOut
-
-Package: libPaymentOut
 Version: 0.75
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
@@ -96,6 +51,21 @@ Size: 448890
 MD5sum: 9df0afac3e1a401b98386745fb650a38
 SHA1: 6ed5186aedc9de0695d12173d5af56c13db8afe5
 SHA256: 0358d605890374145f17d8e1a5e21d87e07aa86e0d90bc68daa086e0bb6e456b
+Section: Tweaks
+Priority: optional
+Description: 出库
+Author: admin
+Name: PaymentOut
+
+Package: libPaymentOut
+Version: 0.76
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Filename: ./debs/libPaymentOut_0.76_iphoneos-arm64e.deb
+Size: 458492
+MD5sum: f2bfc4c4c96554db94c3b356f3d150f5
+SHA1: 54af2ee6161d3a693015c39850e59f402ed2bcac
+SHA256: 6dff0c43edabfad6b4f4ea103728177f978b312f186e8bceb1c1d8f3ece27018
 Section: Tweaks
 Priority: optional
 Description: 出库
