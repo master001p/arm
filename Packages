@@ -13,29 +13,15 @@ Author: xc
 Name: DebugPPurchase
 
 Package: libPaymentIn
-Version: 0.5.7
+Version: 0.5.9
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/libPaymentIn_0.5.7_iphoneos-arm64e.deb
-Size: 440580
-MD5sum: 2194bf9edae5e7d5ce1c7b3c2b4b51d6
-SHA1: 1fc036a95a24f83d6f36cfb556ae63690462af2b
-SHA256: 8858ef08cd00ae3ef183dc1b93dde6769d344e8366dc7e21d8ebb65d7045e3ea
-Section: Tweaks
-Priority: optional
-Description: 入库
-Author: admin
-Name: PaymentIn
-
-Package: libPaymentIn
-Version: 0.5.8
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/libPaymentIn_0.5.8_iphoneos-arm64e.deb
-Size: 453580
-MD5sum: c7ed6cbfa59145f8e984806660bb2bf8
-SHA1: 57d0c20babc22681d9fdc5ef5bf58ead2da7b754
-SHA256: bbcf802a55dfa18efd836936cfb3cb87124c407648ebc7b7d6f2b1e18b6aef0c
+Conflicts: libPaymentOut
+Filename: ./debs/libPaymentIn_0.5.9_iphoneos-arm64e.deb
+Size: 446350
+MD5sum: a1d5b0ad59b474c651de6234fdd2f7ca
+SHA1: 1e8d28c4a426442789b1c67cb8f40a276b8aa2cf
+SHA256: 81d9cd9d0bf97ddee1d3df0c071fdd51870165a78e457b90481697a7f0430cdf
 Section: Tweaks
 Priority: optional
 Description: 入库
@@ -88,15 +74,15 @@ Author: admin
 Name: libpaymentonpass
 
 Package: libpaymentquery
-Version: 0.3
+Version: 0.5
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
 Conflicts: libPaymentOut,libPaymentIn
-Filename: ./debs/libpaymentquery_0.3_iphoneos-arm64e.deb
-Size: 118418
-MD5sum: f88c03863d7cbe4603852b478f1e5493
-SHA1: 085eca0dbece5681cc7f3ad9c258bcff460fe135
-SHA256: c10302ef2b80574872f060329a2b64c9787a46921938a97d74ac00ec09301170
+Filename: ./debs/libpaymentquery_0.5_iphoneos-arm64e.deb
+Size: 119680
+MD5sum: bba5b002c3908cd985c65667d3830258
+SHA1: 71e6fc72a828b85a57b16dc8ce59bf0d8f4ac92e
+SHA256: 4cdf602eec1e1fe50c947006035c8dd99f3be474d898034fb1a40c15cd099c4c
 Section: Tweaks
 Priority: optional
 Description: 凭证采集查询
@@ -134,15 +120,16 @@ Author: admin
 Name: libpaymentremote
 
 Package: payment-agent
-Version: 0.33
+Version: 0.35
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Filename: ./debs/payment-agent_0.33_iphoneos-arm64e.deb
-Size: 407914
-MD5sum: 9473bc61fc9a88c6323119a8f56fa66a
-SHA1: baba63e5dc6e2327f2e9d58539b07a4a2f05b717
-SHA256: b9170665aef10b75dab1643cb7e7339df89d4d3ee3c9e34f69052a781461f694
+Filename: ./debs/payment-agent_0.35_iphoneos-arm64e.deb
+Size: 433858
+MD5sum: d1e641c0ce13cd1bc4019f94e08a2156
+SHA1: 86eb5b6753389a6c48639a733a350a7ab8500284
+SHA256: dde61fcec741f0ecf37412090789bac7c984febf69346dea3573d275587645f6
 Section: Tweaks
 Priority: optional
 Author: admin
+Name: PayMentAgent
 
