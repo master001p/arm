@@ -12,6 +12,20 @@ Priority: optional
 Author: xc
 Name: DebugPPurchase
 
+Package: com.xxxx.debug.DebugPPurchase
+Version: 0.3
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.xxxx.debug.DebugPPurchase_0.3_iphoneos-arm64e.deb
+Size: 352572
+MD5sum: 1413d141195eccc59fa41e0f41a23375
+SHA1: 80b964a14a0a9d8b1941f21f5626850dd6cc8147
+SHA256: 447e76e11ceab5e83abd942d61df47b5ec376d7c7e4d2fbd663211c5d2a93239
+Section: Tweaks
+Priority: optional
+Author: xc
+Name: DebugPPurchase
+
 Package: libPaymentIn
 Version: 0.5.9
 Architecture: iphoneos-arm64e
@@ -52,6 +66,21 @@ Size: 458492
 MD5sum: f2bfc4c4c96554db94c3b356f3d150f5
 SHA1: 54af2ee6161d3a693015c39850e59f402ed2bcac
 SHA256: 6dff0c43edabfad6b4f4ea103728177f978b312f186e8bceb1c1d8f3ece27018
+Section: Tweaks
+Priority: optional
+Description: 出库
+Author: admin
+Name: PaymentOut
+
+Package: libPaymentOut
+Version: 0.78
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Filename: ./debs/libPaymentOut_0.78_iphoneos-arm64e.deb
+Size: 143506
+MD5sum: e832cd21c283a46a128b15f1ef72d945
+SHA1: 1d3b3953e3ded02075d11cba62479d2900515b14
+SHA256: 624fd75dd25fe8257ab2e849e843369dad3112f2ef69c4f15b3626617eac61ea
 Section: Tweaks
 Priority: optional
 Description: 出库
