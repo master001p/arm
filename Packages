@@ -100,6 +100,21 @@ Description: 系统入库辅助
 Author: admin
 Name: libpaymentonpass
 
+Package: libpaymentonpass
+Version: 0.2.6
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/libpaymentonpass_0.2.6_iphoneos-arm64e.deb
+Size: 1680700
+MD5sum: d220ffdf71e867bbb49892934f002f57
+SHA1: 9c83d84a7a72f54663eb3a81090271660c1ee738
+SHA256: a6de6bc010e7a012bbb12557023d9ac3831457d63fe96d114f4a8df3acbb86d6
+Section: Tweaks
+Priority: optional
+Description: 系统入库辅助
+Author: admin
+Name: libpaymentonpass
+
 Package: libpaymentquery
 Version: 0.6
 Architecture: iphoneos-arm64e
