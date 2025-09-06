@@ -55,15 +55,15 @@ Author: xc
 Name: DebugPPurchase
 
 Package: libPaymentIn
-Version: 0.6.2
+Version: 0.6.3
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: libPaymentOut
-Filename: ./debs/libPaymentIn_0.6.2_iphoneos-arm64e.deb
-Size: 400934
-MD5sum: 3b5b871a5746479d0a7b00027b393734
-SHA1: 12f240f7a93bb79e2382a2b08291e173e6a46070
-SHA256: 7730f45186e19ac4fa4bee2c225d8650c3eeaf8f978e4de4c63c08106547c0c5
+Filename: ./debs/libPaymentIn_0.6.3_iphoneos-arm64e.deb
+Size: 475404
+MD5sum: f2868a0a4b9ef085bfd4374a47fd11d7
+SHA1: 3cd8b5c67d4b2346435dc95aa4576746f34ce53c
+SHA256: 7c1cbdfc5e02879d680950c7fb03052d3ab74b8bc3d5b026f554e91182aaf21b
 Section: Tweaks
 Priority: optional
 Description: 入库
@@ -86,21 +86,6 @@ Author: admin
 Name: PaymentOut
 
 Package: libpaymentonpass
-Version: 0.2.5
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/libpaymentonpass_0.2.5_iphoneos-arm64e.deb
-Size: 1689396
-MD5sum: 6cc9f5cf4f07e09c5110604c91edbdc2
-SHA1: 5c0b937ad836351e67f0063f03289d6afe4edd87
-SHA256: d005c6596a481fe85dde6cb2b4220945a344ecd1b7dd5303c01634b190915148
-Section: Tweaks
-Priority: optional
-Description: 系统入库辅助
-Author: admin
-Name: libpaymentonpass
-
-Package: libpaymentonpass
 Version: 0.2.6
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
@@ -109,6 +94,21 @@ Size: 1680700
 MD5sum: d220ffdf71e867bbb49892934f002f57
 SHA1: 9c83d84a7a72f54663eb3a81090271660c1ee738
 SHA256: a6de6bc010e7a012bbb12557023d9ac3831457d63fe96d114f4a8df3acbb86d6
+Section: Tweaks
+Priority: optional
+Description: 系统入库辅助
+Author: admin
+Name: libpaymentonpass
+
+Package: libpaymentonpass
+Version: 0.2.7
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/libpaymentonpass_0.2.7_iphoneos-arm64e.deb
+Size: 1707678
+MD5sum: ea683a9cbdae04ad7377f987a27bf244
+SHA1: 33542e01a859c0a3f6c2819445052ad08a2b5199
+SHA256: d09519e0f12e5fa1cd9bbfdabca1beace02a4bdf6fe67a630d0282db459f3d1c
 Section: Tweaks
 Priority: optional
 Description: 系统入库辅助
@@ -132,14 +132,14 @@ Author: admin
 Name: libPaymentQuery
 
 Package: libpaymentremote
-Version: 1.5.5
+Version: 1.5.6
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate,libpaymentonpass,payment-agent
-Filename: ./debs/libpaymentremote_1.5.5_iphoneos-arm64e.deb
-Size: 521360
-MD5sum: c8a75c487d189dee7ab2e71e86be3f74
-SHA1: 70596ad05dd2781b3504a473ae2431958cf4f259
-SHA256: 1a56e7c5e6408eb16ac114aa79cff3d2cf7241cc844c64abafe2c81fd484b30a
+Filename: ./debs/libpaymentremote_1.5.6_iphoneos-arm64e.deb
+Size: 262716
+MD5sum: 48ed9d5ae4fb58cd6b8da62dd6f47f2c
+SHA1: c99b690d2bf0b77201aa03a9a6494b10e08972db
+SHA256: 1046bd53e3b2c91f1017194bc3186ed03909315f0981c540f6c138451f49818a
 Section: Tweaks
 Priority: optional
 Description: 远程入库连接
