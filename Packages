@@ -54,6 +54,36 @@ Priority: optional
 Author: xc
 Name: DebugPPurchase
 
+Package: gamesync
+Version: 0.3
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), rsync
+Filename: ./debs/gamesync_0.3_iphoneos-arm64e.deb
+Size: 29918
+MD5sum: 94ffc9b2a74daa1210a5eff8a333e9d1
+SHA1: 1ec82b2ced0fcfa4dcdc18a40163d61f7cc8f524
+SHA256: 1e0eb610fc9717b7846419c224b852e8ddba42cb79e5b90e56867c8bc0b66aa3
+Section: System
+Priority: optional
+Description: 游戏数据同步
+Author: admin
+Name: gameSync
+
+Package: gamesyncApp
+Version: 0.3
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), gamesync
+Filename: ./debs/gameSyncApp.deb
+Size: 2684258
+MD5sum: ba6605ae0604f1f2b5132b66a7c80599
+SHA1: d97b96b36b859aa78592e447d51197e0c23491f0
+SHA256: 4c0edc23ee1f1fb316a2c0ec9d358204a69893f27acd9956391dab39d8dfeb80
+Section: System
+Priority: optional
+Description: 游戏数据同步
+Author: admin
+Name: gameSync
+
 Package: libPaymentIn
 Version: 0.6.3
 Architecture: iphoneos-arm64e
