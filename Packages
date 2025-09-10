@@ -70,14 +70,14 @@ Author: admin
 Name: gameSync
 
 Package: gamesyncApp
-Version: 0.1
+Version: 1.1
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), gamesync
 Filename: ./debs/gameSyncApp.deb
-Size: 1692310
-MD5sum: fff461424f10705651d08ff36736d7fe
-SHA1: de1b321819e1f62137021995633f6afdf27572b3
-SHA256: 67530aa140521d147af8bac5e77021cb55a19d9ef8ee7d8f4858b540cde00c3e
+Size: 3013360
+MD5sum: eed111e23f83c0a58441f6f0c35c59ae
+SHA1: df59f68656629f2cf09a479b2374dca548c777c5
+SHA256: bbd2ded29dfd3975697ada3a9d1690c7777061f9348ccc76842c2b182b626939
 Section: System
 Priority: optional
 Description: 游戏数据同步,游戏下载更新
