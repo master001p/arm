@@ -161,6 +161,21 @@ Description: 远程入库连接
 Author: admin
 Name: libpaymentremote
 
+Package: libpaymentremote
+Version: 1.6.6
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate,libpaymentonpass,payment-agent
+Filename: ./debs/libpaymentremote_1.6.6_iphoneos-arm64e.deb
+Size: 392194
+MD5sum: 1d3eb77dde77dc6c8320e18a2cd18e40
+SHA1: 8237d5fe6e26e0cb28d3bee89a75154cadd7d8a1
+SHA256: 4e8ac94170616cc888b122991b06be6f92826a68c2b007a0ad65995ad49fa8bd
+Section: Tweaks
+Priority: optional
+Description: 远程入库连接
+Author: admin
+Name: libpaymentremote
+
 Package: libpaymentui
 Version: 0.2
 Architecture: iphoneos-arm64e
