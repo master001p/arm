@@ -26,34 +26,6 @@ Priority: optional
 Author: xc
 Name: DebugPPurchase
 
-Package: com.xxxx.debug.DebugPPurchase
-Version: 0.3
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.xxxx.debug.DebugPPurchase_0.3_iphoneos-arm64e.deb
-Size: 352572
-MD5sum: 1413d141195eccc59fa41e0f41a23375
-SHA1: 80b964a14a0a9d8b1941f21f5626850dd6cc8147
-SHA256: 447e76e11ceab5e83abd942d61df47b5ec376d7c7e4d2fbd663211c5d2a93239
-Section: Tweaks
-Priority: optional
-Author: xc
-Name: DebugPPurchase
-
-Package: com.xxxx.debug.DebugPPurchase
-Version: 0.9
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.xxxx.debug.DebugPPurchase_0.9_iphoneos-arm64e.deb
-Size: 190360
-MD5sum: 842100a676ae0a7b60cde05417a374b7
-SHA1: da5669524769a52ba6623767203358beab83e617
-SHA256: 40a6ed61e9bdbf47c9150a4d6734f2339cfd809a9b5809a7a8f22e9aab0c08c7
-Section: Tweaks
-Priority: optional
-Author: xc
-Name: DebugPPurchase
-
 Package: gamesync
 Version: 0.3
 Architecture: iphoneos-arm64e
@@ -85,22 +57,6 @@ Author: admin
 Name: gameSyncApp
 
 Package: libPaymentIn
-Version: 0.6.9
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: libPaymentOut
-Filename: ./debs/libPaymentIn_0.6.9_iphoneos-arm64e.deb
-Size: 523092
-MD5sum: 7771659b53236e04f4b15c2ee5c61a38
-SHA1: 581273a8f06c343d77d2db2aa4180ed71a28cfdd
-SHA256: 3f554ee29520ff375be386f77acdea37bdc862b17f8c0f436985bdd8cfc21847
-Section: Tweaks
-Priority: optional
-Description: 入库
-Author: admin
-Name: PaymentIn
-
-Package: libPaymentIn
 Version: 0.7.5
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
@@ -110,6 +66,22 @@ Size: 534508
 MD5sum: a821626a80d80f87a8ea7eb702fc86fd
 SHA1: cbd43ed66a383af5fac649bc78067751cb383d0a
 SHA256: e94a2619219515f30f8d7ad8d58f8133f717f9303d82d5b5fbccdaac87feb614
+Section: Tweaks
+Priority: optional
+Description: 入库
+Author: admin
+Name: PaymentIn
+
+Package: libPaymentIn
+Version: 0.7.6
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: libPaymentOut,paymentdin
+Filename: ./debs/libPaymentIn_0.7.6_iphoneos-arm64e.deb
+Size: 429130
+MD5sum: 1eb5d1f4c2586a9e509c3e99019f82cb
+SHA1: 8604448093ce804f63ce094ea63e6d3cb65a6bd5
+SHA256: 5bf3b44aefb7f6e2266860534b94a5cbf1942809e5388227744a73a925f7e59d
 Section: Tweaks
 Priority: optional
 Description: 入库
@@ -155,6 +127,21 @@ Size: 1850876
 MD5sum: ab4a856aea01686366bc2b19f09b7342
 SHA1: 81c319b6722fcf1b70aec1ecc61552a8a0ec0336
 SHA256: b703a058b5cda0d46af103b3ca82a8d17295ec1043316843c1bdfd4e3d362bc1
+Section: Tweaks
+Priority: optional
+Description: 系统入库辅助
+Author: admin
+Name: libpaymentonpass
+
+Package: libpaymentonpass
+Version: 0.3.2
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/libpaymentonpass_0.3.2_iphoneos-arm64e.deb
+Size: 1998296
+MD5sum: 143b413729d2a3863a06f90b7028b399
+SHA1: c199d8e4d8b05809a855b2e02f04a28c86dac88c
+SHA256: 653d750c6915dc1a5aa9420b1e7760bf389d1b140f28392489a2fc07737e0f38
 Section: Tweaks
 Priority: optional
 Description: 系统入库辅助
@@ -207,6 +194,21 @@ Description: 远程入库连接
 Author: admin
 Name: libpaymentremote
 
+Package: libpaymentremote
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate,libpaymentonpass,payment-agent
+Filename: ./debs/libpaymentremote_1.7.0_iphoneos-arm64e.deb
+Size: 783838
+MD5sum: a52dc9eaa63e14d08ffe5e931bd5f770
+SHA1: 8733a7a35cfdc1cdc6ff35f225c4024fe88db0c9
+SHA256: 9a246c8bb09537d806271ee2562c734bea39fda47571d7339fde82deab9b1e69
+Section: Tweaks
+Priority: optional
+Description: 远程入库连接
+Author: admin
+Name: libpaymentremote
+
 Package: libpaymentui
 Version: 0.2
 Architecture: iphoneos-arm64e
@@ -249,36 +251,6 @@ Section: Tweaks
 Priority: optional
 Author: admin
 Name: PayMentAgent
-
-Package: paymentdin
-Version: 0.3.2
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/paymentdin_0.3.2_iphoneos-arm64e.deb
-Size: 1760360
-MD5sum: fcd3fc4c273eacec72de4cbc51fdf8be
-SHA1: 289a94719b5a723b72a059b7a8d2c351043c5b1c
-SHA256: 5d27fbef244066f985c3a8baa6382e93a73aa2a677dfd3563e5bafaf53d36216
-Section: Tweaks
-Priority: optional
-Description: 系统入库
-Author: admin
-Name: PaymentdIn
-
-Package: paymentdin
-Version: 0.3.3
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/paymentdin_0.3.3_iphoneos-arm64e.deb
-Size: 1780658
-MD5sum: 1aeb612249b80ca537de379338363100
-SHA1: 03e35faa81241c98559f4d89e2544a43724c49a3
-SHA256: 09ecd762a735b54d917a9601df53765134d6ac06c9942de713eeec71477f566b
-Section: Tweaks
-Priority: optional
-Description: 系统入库
-Author: admin
-Name: PaymentdIn
 
 Package: paymentdout
 Version: 0.3
