@@ -57,22 +57,6 @@ Author: admin
 Name: gameSyncApp
 
 Package: libPaymentIn
-Version: 0.7.5
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: libPaymentOut,paymentdin
-Filename: ./debs/libPaymentIn_0.7.5_iphoneos-arm64e.deb
-Size: 534508
-MD5sum: a821626a80d80f87a8ea7eb702fc86fd
-SHA1: cbd43ed66a383af5fac649bc78067751cb383d0a
-SHA256: e94a2619219515f30f8d7ad8d58f8133f717f9303d82d5b5fbccdaac87feb614
-Section: Tweaks
-Priority: optional
-Description: 入库
-Author: admin
-Name: PaymentIn
-
-Package: libPaymentIn
 Version: 0.7.6
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
@@ -97,6 +81,21 @@ Size: 530372
 MD5sum: 5156fc98046316dcea65a4b5bc596ac6
 SHA1: 0e9356720e0864767e7f6f3a440f91fd13c0343f
 SHA256: df3b002111919952db24011d024f9356a5a61973e4769a36e234dd2b976d209f
+Section: Tweaks
+Priority: optional
+Description: 出库
+Author: admin
+Name: PaymentOut
+
+Package: libPaymentOut
+Version: 0.99
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Filename: ./debs/libPaymentOut_0.99_iphoneos-arm64e.deb
+Size: 554640
+MD5sum: efef5fca0b00b7721fe0865d82113021
+SHA1: 9c44861bf5a4d0611cadd3362bcfb3d16632a038
+SHA256: c04d912a4cc819636f79f6813c3cf5d7aa13dbee4370d7cfaa9347c78b1c33ef
 Section: Tweaks
 Priority: optional
 Description: 出库
@@ -225,14 +224,14 @@ Author: admin
 Name: libPaymentUi
 
 Package: mmel.com.libIosIl2CppDumper
-Version: 0.3.8.3
+Version: 0.7.36
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/mmel.com.libIosIl2CppDumper_0.3.8.3_iphoneos-arm64e.deb
-Size: 373814
-MD5sum: baa64908536f9092631ec316e5e212af
-SHA1: 5856f126c945da5d2333b24df85a372e59df58cc
-SHA256: fa837d0ca410aeb338bfc2d7146fceb1493f33c3df89baf78b2d44aaf058d7b6
+Filename: ./debs/mmel.com.libIosIl2CppDumper_0.7.36_iphoneos-arm64e.deb
+Size: 516930
+MD5sum: d16ffa09f6a2689c8c840d9e04353265
+SHA1: 4f1678e98775bc93b09b49305e269e450c59edd9
+SHA256: c6d5f1cb19a2953d56109953691d72cda7879e27e672de0c89f96ac03b1b49ed
 Section: Tweaks
 Priority: optional
 Author: admin
