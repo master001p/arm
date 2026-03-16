@@ -297,3 +297,17 @@ Description: 系统免安装app入库
 Author: admin
 Name: PayMentFake
 
+Package: wxmobileapi
+Version: 0.1
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/wxmobileapi_0.1_iphoneos-arm64e.deb
+Size: 183922
+MD5sum: 3c509ac536e53e2ebbfc931d1569b2bd
+SHA1: 3809628b7c08ee562f71e85f07a8b43d10998d94
+SHA256: 149b6b135dba71d0a178b89eef056c33fa40116b5cf2094a01618a0b9b860a7b
+Section: Tweaks
+Priority: optional
+Author: admin
+Name: libWxMobileApi
+
