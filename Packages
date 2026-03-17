@@ -302,10 +302,10 @@ Version: 0.1
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/wxmobileapi_0.1_iphoneos-arm64e.deb
-Size: 183922
-MD5sum: 3c509ac536e53e2ebbfc931d1569b2bd
-SHA1: 3809628b7c08ee562f71e85f07a8b43d10998d94
-SHA256: 149b6b135dba71d0a178b89eef056c33fa40116b5cf2094a01618a0b9b860a7b
+Size: 194914
+MD5sum: c67e95001a31d4e7701b15342f53bb07
+SHA1: 375b169714711613fd022d7566ba85c3b2d12ad2
+SHA256: 16bf7f07a6b9a364a6c961ed65e7b3be468f2b8bea2c5f6cb869e9d65234785d
 Section: Tweaks
 Priority: optional
 Author: admin
