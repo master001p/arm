@@ -164,44 +164,14 @@ Author: admin
 Name: libPaymentQuery
 
 Package: libpaymentremote
-Version: 1.6.6
+Version: 1.7.1
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate,libpaymentonpass,payment-agent
-Filename: ./debs/libpaymentremote_1.6.6_iphoneos-arm64e.deb
-Size: 392194
-MD5sum: 1d3eb77dde77dc6c8320e18a2cd18e40
-SHA1: 8237d5fe6e26e0cb28d3bee89a75154cadd7d8a1
-SHA256: 4e8ac94170616cc888b122991b06be6f92826a68c2b007a0ad65995ad49fa8bd
-Section: Tweaks
-Priority: optional
-Description: 远程入库连接
-Author: admin
-Name: libpaymentremote
-
-Package: libpaymentremote
-Version: 1.6.7
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate,libpaymentonpass,payment-agent
-Filename: ./debs/libpaymentremote_1.6.7_iphoneos-arm64e.deb
-Size: 777878
-MD5sum: 0c891d62147b09f6762fca06275ec406
-SHA1: cd294d948dd4f3b2f0e4761057f15d1ec533b68c
-SHA256: bcb5cd72ad072bcefc4833611eb88cc5b0ffaa87bfdde71956e7a13378273b9d
-Section: Tweaks
-Priority: optional
-Description: 远程入库连接
-Author: admin
-Name: libpaymentremote
-
-Package: libpaymentremote
-Version: 1.7.0
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate,libpaymentonpass,payment-agent
-Filename: ./debs/libpaymentremote_1.7.0_iphoneos-arm64e.deb
-Size: 783838
-MD5sum: a52dc9eaa63e14d08ffe5e931bd5f770
-SHA1: 8733a7a35cfdc1cdc6ff35f225c4024fe88db0c9
-SHA256: 9a246c8bb09537d806271ee2562c734bea39fda47571d7339fde82deab9b1e69
+Filename: ./debs/libpaymentremote_1.7.1_iphoneos-arm64e.deb
+Size: 784714
+MD5sum: 3662c643fab95a96189f6ffd49ee0813
+SHA1: 091232f05115f96447a45028697a91e7babf698c
+SHA256: d86f3ac68606926db8fe47357faa7284593e6f48f6b723f0b56fd3a0dcf8d9be
 Section: Tweaks
 Priority: optional
 Description: 远程入库连接
