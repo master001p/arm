@@ -266,3 +266,17 @@ Priority: optional
 Author: admin
 Name: libWxMobileApi
 
+Package: wxmobileapi
+Version: 0.3
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/wxmobileapi_0.3_iphoneos-arm64e.deb
+Size: 200276
+MD5sum: 11ca56b46c17f63b8b8bfffe6a6c95aa
+SHA1: 2a55c91c7826c514cf7f4d37a19b481425744893
+SHA256: 77440ce6764fba09b9b24eed51fedfe804dfcd15615f65f605c143aefa28a7fb
+Section: Tweaks
+Priority: optional
+Author: admin
+Name: libWxMobileApi
+
