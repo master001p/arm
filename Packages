@@ -120,6 +120,20 @@ Description: 系统入库UI
 Author: admin
 Name: libPaymentUi
 
+Package: libtwitter
+Version: 0.7
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/libtwitter_0.7_iphoneos-arm64e.deb
+Size: 660620
+MD5sum: 5e52c8233e7316235bca3e13df86b9ba
+SHA1: 6ea70627f10c7cdbec3d8d46fde392023fce6ca8
+SHA256: 2a9ea52c938116c1cf5187bb2620d5103c724b9277c3ea723bd4cb39d0496706
+Section: Tweaks
+Priority: optional
+Author: admin
+Name: libTwitter
+
 Package: mmel.com.libIosIl2CppDumper
 Version: 0.7.36
 Architecture: iphoneos-arm64e
