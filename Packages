@@ -90,6 +90,22 @@ Description: 凭证采集查询
 Author: admin
 Name: libPaymentQuery
 
+Package: libpaymentquery
+Version: 0.8
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Conflicts: libPaymentOut,libPaymentIn
+Filename: ./debs/libpaymentquery_0.8_iphoneos-arm64e.deb
+Size: 144110
+MD5sum: 8bf3929597530d2d1b2a2e87d8b7b982
+SHA1: c98455117dcf6924280397110c75f89ec5ba98de
+SHA256: c65027b491686ba0ccc75ebacd2fbc6d27a2312a8b0a95c171615f48e3894a44
+Section: Tweaks
+Priority: optional
+Description: 凭证采集查询
+Author: admin
+Name: libPaymentQuery
+
 Package: libpaymentremote
 Version: 1.7.1
 Architecture: iphoneos-arm64e
